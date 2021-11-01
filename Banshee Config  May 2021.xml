@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <LynxUsbDevice name="Control Hub Portal" serialNumber="(embedded)" parentModuleAddress="173">
+        <LynxModule name="Expansion Hub 2" port="2">
+            <NeveRest20Gearmotor name="slurp" port="0" />
+            <NeveRest20Gearmotor name="literallyAGun" port="1" />
+            <NeveRest20Gearmotor name="anActualGun" port="2" />
+            <NeveRest20Gearmotor name="fwip" port="3" />
+            <Servo name="theClaaaw" port="0" />
+        </LynxModule>
+        <LynxModule name="Control Hub" port="173">
+            <NeveRest20Gearmotor name="backright" port="0" />
+            <NeveRest20Gearmotor name="frontright" port="1" />
+            <NeveRest20Gearmotor name="backleft" port="2" />
+            <NeveRest20Gearmotor name="frontleft" port="3" />
+            <Servo name="flicky" port="1" />
+            <LynxEmbeddedIMU name="imu 1" port="0" bus="0" />
+        </LynxModule>
+    </LynxUsbDevice>
+</Robot>
